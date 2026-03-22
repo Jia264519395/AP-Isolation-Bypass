@@ -6,13 +6,6 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 
 Write-Host "这个程序用于破除校园网的AP隔离" -ForegroundColor Red
 Write-Host "`n说人话就是解决校园网中电脑不能互相通信的臭毛病" -ForegroundColor Yellow
-Write-Host "目前在18栋宿舍和九章楼测试可用" -ForegroundColor Yellow
-Write-Host "`n🍗🍗🍗czc组内专用🍗🍗🍗" -ForegroundColor Red
-
-Write-Host "`n据我观察：" -ForegroundColor DarkGray
-Write-Host "九章楼的网关ip地址是：10.21.64.1" -ForegroundColor DarkGray
-Write-Host "18楼宿舍的网关ip地址是：10.21.192.1" -ForegroundColor DarkGray
-
 # windows 将ps、bat、py等脚本、代码编译成exe文件
 # 以管理员身份打开 PowerShell
 # 运行: Install-Module ps2exe -Force
